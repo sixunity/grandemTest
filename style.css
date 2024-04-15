@@ -1,0 +1,2096 @@
+@font-face {
+    font-family: 'Averta';
+    src: url(fonts/regular.otf) format('opentype');
+    
+  }
+
+  @font-face {
+    font-family: "Averta";
+    src: url(fonts/bold.otf) format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url(fonts/semibold.otf) format('opentype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Averta";
+    src: url(fonts/light.otf) format('opentype');
+    font-weight: lighter;
+}
+
+body{
+    background: rgb(69,127,196);
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    background: transparent linear-gradient(135deg, #11282C 0%, #1C5198 100%) 0% 0% no-repeat padding-box;
+
+}
+
+#header{
+    display: flex;
+    padding: 0;
+    z-index: 10;
+    padding-top: 3vw;
+    margin-bottom: auto;
+
+
+}
+
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15vw;
+    margin: auto;
+    margin-left: 10%;
+}
+
+#headerbuttonsf{
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding-right: 10%;
+}
+
+#headerbuttons{
+    align-self: flex-end;
+    display: flex;
+    margin: auto;
+    margin-right: 10%;
+}
+
+.pagebutton{
+    margin: auto;
+    font-family: "Averta";
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 100;
+    padding-right: 3vw;
+    font-size: 2vw;
+}
+
+.borderbutton{
+    
+    font-family: "Averta";
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2vw;
+    margin: 3vw;
+    height: 3vw;
+    font-weight: 100;
+
+    
+
+}
+
+#morebuttontext{
+  display: flex;
+  align-items: center;
+  margin-top: 1.5vw;
+
+}
+
+#kontakti {
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
+  /* align-self: self-start; */
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-top: 0.7vw;
+}
+
+#topbox{
+    margin-top: 0;
+    height: 50%;
+    display: block;
+
+}
+
+#topnavfloat{
+  display: none;
+}
+
+#bgImg{
+  background-image: url("assets/Mask\ Group\ 8.png");
+  height: 100%; 
+  position: relative;
+  width: 100%;
+background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+
+#bg{
+  width: 100%;
+  position: relative;
+    top: 0vw;
+    z-index: 999;
+    background-size: 100%; 
+    background: transparent linear-gradient(135deg, #11282C 0%, #1C5198 100%) 0% 0% no-repeat padding-box;
+    
+
+
+}
+
+
+#haus{
+    
+display: block;
+padding: 0%;
+width: 100%;
+margin-left: auto;
+margin-right: 0;
+z-index: 2;
+}
+
+#myLinks{
+  display: none;
+}
+
+#faq{
+
+    background-color: #F2F4F5;
+    z-index: 1;
+    position: relative;
+
+}
+
+#faqHead{
+    color: black;
+    padding-bottom: 4%;
+}
+
+#faqText{
+    color: black;
+    padding-left: 20vw;
+    font-size: 1vw;
+    padding-bottom: 4%;
+    text-align: right;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+#faqPadding{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    
+}
+
+#faqTopFlexbox{
+    display: flex;
+}
+
+.kontaktiwrapper{
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    flex-grow: 1;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+#central{
+    display: flex;
+    padding: 0;
+    margin-bottom: auto;
+    flex-direction: row;
+
+}
+.solids{
+  border-width: 0.1vw;
+  opacity: 0.17;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+#centraltext{
+    width: 40%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 0;
+    margin-right: -10vw;
+}
+
+.text1{
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    margin-left: 0;
+    font-family: "Averta";
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2.1vw;
+    word-wrap: break-word;
+}
+
+.text2{
+    margin: auto;
+    margin-left: 0;
+    margin-top: 2vw;
+    width: fit-content;
+    font-family: "Averta";
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 3vw;
+    font-size: 1vw;
+}
+
+#flogoimg{
+  filter: invert(); width: 8vw;
+}
+
+#morebutton{
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    height: 2vw;
+    flex-grow: 1;
+    margin-top: 1vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 12vw;
+    display: flex;
+
+}
+
+#housediv{
+    width: 70%;
+}
+
+
+
+.moreborderbutton{
+    
+    font-family: "Averta";
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1vw;
+    
+    height: 3vw;
+    
+
+}
+
+#chataudio{
+    margin-left: 0.2vw;
+    transform: translateY(20%);
+    transition: transform 0.2s ease-out;
+}
+
+.kontaktiwrapper:hover #chataudio{
+    transform: translateY(-10%);
+    transform: scale(110%);
+
+
+}
+
+
+.collapsible {
+    border-radius: 20px;
+    background-color: #F2F4F5;
+    color: #000000;
+    cursor: pointer;
+    padding: 1.5vw;
+    width: 100%;
+    padding-left:0;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: "Averta";
+    font-weight: 100;
+    font-size: 1.5vw;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: unset;
+  }
+  
+  .content {
+    padding: 0 1.5vw;
+    background-color: #F2F4F5;
+    max-height: 0;
+    font-size: 1vw;
+    font-family: "Averta";
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .collapsible:after {
+    content: '\02795'; 
+    font-size: 1vw;
+    color: white;
+    float: right;
+    margin-left: 1vw;
+  }
+  
+  .active:after {
+    content: "\2796"; 
+  }
+
+/* Slideshow container */
+.slideshowContainer {
+  width: 75vw;
+
+  max-height: 30vw;
+  position: relative;
+  margin: auto;
+  margin-top: 3vw;
+  z-index: 1;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  width: auto;
+  padding: 2vw;
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  /* transition: 0.6s ease; */
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 5;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    right:0;
+    margin-right: 12vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 0.8vw 1vw;
+  position: absolute;
+  left: 0;
+  bottom: 1vw;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1vw;
+  padding: 2vw 8.5vw;
+  position: absolute;
+  font-family: "Averta";
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideshowimages{
+    width: 75vw;
+    filter: brightness(50%);
+     object-fit: cover;
+      max-height: 30vw;
+      border-radius: 20px;
+}
+
+#slideshowButtons{
+
+    right: 0;
+}
+
+.slideshowButtonImages{
+    height: 1vw;
+    width: 3vw;
+}
+
+#slideshowHead{
+    color: aliceblue;
+    padding-left: 3vw;
+}
+
+#slideshowDesc{
+    padding-left: 3vw;
+    width: 40%;
+}
+
+#ssmorebutton{
+    margin-top: 2vw;
+    margin-left: 3vw;
+background-color: #FAA819;
+    flex: none;
+    height: 3vw;
+
+    border: 1px solid #FAA819;
+    border-radius: 31px;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+#ssbutton{
+    color: black;
+    font-weight: 100;
+    margin: 1.8vw;
+    
+}
+
+#formContainer{
+    height: 60vw;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+ 
+}
+
+
+#formGradient{
+    background: rgb(69,127,196);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    height: 50vw;
+    background: transparent linear-gradient(157deg, #11282C 0%, #1C5198 100%) 0% 0% no-repeat padding-box;
+}
+
+#circleEffect{
+    background-image: url(assets/Mask\ Group\ 6.png);
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+#formHead{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 8vw;
+    color: #ffffff;
+    text-align: right;
+}
+
+#formContainer::before {
+    content: '';
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/aerial-shot-st-gertrude-church-background-riga-latvia\ \(1\).png'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size:COVER; 
+    filter: brightness(0.6); 
+    z-index: -1;
+
+}
+
+#formContainer::after {
+    content: '';
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/Mask\ Group\ 7.png'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size:COVER; 
+   
+    z-index: 0;
+
+}
+
+#pointContainer{
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.points{
+    display: flex;
+    padding-left: 5vw;
+    align-items: center;
+}
+
+#pointText{
+    font-size: 1.2vw;
+    font-weight: normal;
+}
+
+.pointImg{
+    padding-right: 1.4vw;
+    
+}
+
+.pImageE{
+    width: 6vw;
+}
+
+#formButtonFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fbutton{
+    font-size: 1.5vw;
+    color: #000000;
+}
+
+#fmorebutton{
+    margin-top: 2vw;
+    margin-left: 3vw;
+background-color: #FAA819;
+    flex: none;
+    height: 4vw;
+
+    border: 1px solid #FAA819;
+    border-radius: 31px;
+    width: 24vw;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+    justify-content: center;
+    font-weight: 100;
+}
+
+#formInfoCont{
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+    margin-top: -20vw;
+}
+
+#formInfo{
+    background-color: #ffffff;
+    width: 70vw;
+    display: flex;
+    z-index: 5;
+    height: 40vw;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+#chckandtext{
+  display: flex;
+
+}
+
+#formIHead{
+    color: black;
+    padding-bottom: 0vw;
+    padding-top: 5vw;
+    text-align: left;
+    padding-left: 6vw;
+}
+
+#formText{
+    color: black;
+    padding-left: 6vw;
+    font-size: 1vw;
+    padding-bottom: 3vw;
+    font-weight: normal;
+    text-align: left;
+    padding-right: 0;
+    margin-right: 0;
+    
+}
+
+#formHr{
+    margin-left: 6vw;
+    color: #707070;
+
+}
+
+#fLBottomHead{
+    color: #000000;
+    font-weight: 100;
+    padding-left: 6vw;
+    font-size: 1.2vw;
+    padding-top: 3vw;
+    padding-bottom: 0.5vw;
+}
+
+.contact{
+    display: flex;
+    padding-left: 6vw;
+    padding-top: 1vw;
+    font-family: "Averta";
+    font-size: 1vw;
+}
+
+.contactInfo{
+    padding-left: 1vw;
+}
+
+.contactImg{
+    width: 1.2vw;
+}
+
+form{
+    padding-top: 4vw;
+    width: 50%;
+}
+
+input[type=text] ,select{
+    background-color: #EDF3F8;
+    color: black;
+    border: none;
+    width: 25vw;
+    height: 3vw;
+    margin-bottom: 0.5vw;
+    font-family: "Averta";
+    font-size: 0.8vw;
+    font-weight: 100;
+    padding-left: 1.2vw;
+    border-radius: 8px;
+
+  }
+
+  input[type="file"] {
+    display: none;
+  }
+
+  textarea{
+    background-color: #EDF3F8;
+    color: black;
+    border: none;
+    width: 25vw;
+    height: 6vw;
+    margin-bottom: 0.5vw;
+    font-family: "Averta";
+    font-size: 0.8vw;
+    font-weight: 100;
+    padding-top: 1vw;
+    padding-left: 1.2vw;
+    border-radius: 8px;
+    resize: none;
+
+  }
+  
+  .custom-file-upload {
+    background-color: #EDF3F8;
+    color: black;
+    display: flex;
+    border: none;
+    width: 50%;
+    height: 3vw;
+    align-items: center;
+    margin-bottom: 0.5vw;
+    font-family: "Averta";
+    font-size: 0.8vw;
+    font-weight: 100;
+    padding-left: 1.2vw;
+    border-radius: 8px;
+    margin-left: 0.5vw;
+    cursor: pointer;
+
+  }
+
+  #failsUnAdd{
+    display: flex;
+    width: 26.2vw;
+  }
+
+  select{
+    width: 26.2vw;
+  }
+
+  ::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+  }
+
+  #formRight{
+    width: 50%;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-right: 1vw;
+    padding-bottom: 0vw;
+    margin-bottom: 1vw;
+    cursor: pointer;
+    font-size: 2vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: #EDF3F8;
+    border-radius: 4px;
+  }
+
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 0.55vw;
+    top: 0.3vw;
+    width: 0.25vw;
+    height: 0.5vw;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #checkboxText{
+    display: flex;
+    padding-top: 1vw;
+    width: 26.2vw;
+    justify-content: flex-start;
+    padding-bottom: 2vw;
+  }
+
+  .ppLabel{
+    font-family: "Averta";
+    font-weight: normal;
+    font-size: 0.7vw;
+    padding-left: 1vw;
+    padding-bottom: 0.2vw;
+ 
+  }
+
+  input[type=submit]{
+    width: 12vw;
+    margin-left: 5vw;
+    font-family: "Averta";
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1vw;
+    cursor: pointer;
+    
+
+
+background-color: #FAA819;
+    flex: none;
+    height: 3vw;
+
+    border: 1px solid #FAA819;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+    margin-top: -0.5vw;
+    justify-content: center;
+    font-weight: 100;
+    
+  }
+
+  a:link {
+    color: #457FC4;
+  }
+
+  #footerMain{
+    display: flex;
+    margin-top: -5vw;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #footerTopLeft{
+    z-index: 1;
+    padding-left: 15vw;
+    width: 20%;
+  }
+
+  #footerNews{
+    z-index: 1;
+    display: flex;
+    padding-right: 15vw;
+  }
+
+  #newsLine{
+display: flex;
+width: 13vw;
+padding-bottom: 1.2vw;
+  }
+
+  #newsHr{
+    width: 100%;
+border-color: #457FC4;
+border-width: 0.15vw;
+  }
+
+  #newsLineLabel{
+    margin-left: 1vw;
+    margin-right: 3vw;
+    font-family: "Averta";
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .new{
+    max-width: 14vw;
+    padding-left: 2.5vw;
+  }
+
+  .newsImg{
+    object-fit: fill;
+    max-width: 100%;
+    border-radius: 20px;
+    height: 9vw;
+    position: relative;
+  }
+
+  #footerNewsText{
+    margin-top: 1vw;
+    font-size: 0.9vw;
+    padding-right: 0;
+    font-weight: 100;
+  }
+
+  #newsLink{
+    font-family: "Averta";
+    text-decoration: none;
+    padding-right: 0.5vw;
+    color: #809294;
+    font-size: 0.9vw;
+  }
+
+#footerBottomMain{
+  z-index: 2;
+  position: relative;
+    width: 100%;
+    height: fit-content
+}
+
+#footerBottomFlex{
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  margin-left: 15vw;
+  margin-right: 10vw;
+
+}
+
+#grayHr{
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  z-index: 2;
+position: relative;
+  border-color: #809294;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+  #newsLinkDiv{
+    padding-top: 1vw;
+
+  }
+
+#footerBottomLeftText{
+  font-size: 1vw;
+  padding-left: 0;
+
+  
+}
+
+#footerBottomLinks{
+  font-family: "Averta";
+  text-decoration: none;
+  padding-right: 1vw;
+  margin-top: 0.5vw;
+  color: #ffffff;
+  font-size: 0.8vw;
+}
+
+#footerLinks{
+width: 25%;
+height: fit-content;
+}
+
+#footerLogo{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+}
+#footerFunnyImage{
+  width: 20%;
+  display: flex;
+  height: fit-content;
+  padding-top: 4vw;
+  margin-right: 3vw;
+  overflow: hidden;
+  position: relative;
+}
+
+#footerFImg{
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#footerBottomLinkContainer{
+display: block;
+
+}
+
+#footerImg{
+  width: 13vw;
+}
+
+#copyrightTop{
+  font-family: "Averta";
+  text-decoration: none;
+  padding-right: 1vw;
+  margin-top: 0vw;
+  color: #ffffff;
+  font-size: 0.8vw;
+  text-align: center;
+}
+
+#footerLogoCenter{
+  padding-left: 10vw;
+  height: fit-content;
+}
+
+#cBottomText{
+  font-family: "Averta";
+  text-decoration: none;
+  padding-right: 1vw;
+
+  color: #809294;
+  font-size: 0.7vw;
+  text-align: end;
+}
+
+#copyrightBottom{
+  display: flex;
+  margin-top: -0.3vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#cBottomImg{
+  color: #809294;
+  filter: brightness(0.8);
+  width: 4vw;
+
+  margin-left: -0.2vw;
+}
+
+#ssHr{
+  width: 100%;
+  border-color: #56BFA4;
+  border-width: 0.15vw;
+}
+
+#ssLine{
+  display: flex;
+width: 16%;
+padding-bottom: 1.2vw;
+padding-left: 3vw;
+}
+
+#effects{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  pointer-events: none
+}
+
+#moon1{
+  position: absolute;
+  padding-left: 42vw;
+  padding-top: 13vw;
+  width: 3vw;
+}
+
+#moon2{
+  position: absolute;
+  padding-left: 27vw;
+  margin-bottom: -1.5vw;
+  bottom: 0;
+  width: 3vw;
+}
+
+#moon3{
+  position: absolute;
+  right: 0;
+  margin-right: 25vw;
+  margin-bottom: 15vw;
+  bottom: 0;
+  width: 10vw;
+  filter: blur(8px);
+}
+
+#floatingButton{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 22vw;
+  margin-bottom: 25vw;
+  width: 5vw;
+}
+#floatingImg{
+  width: 5vw;
+
+}
+
+#effects2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  pointer-events: none
+
+}
+
+#effects3{
+  width: 60%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+  pointer-events: none
+
+}
+
+#moon4{
+  position: absolute;
+right: 0;
+margin-right: 25vw;
+margin-top: -5vw;
+  z-index: 2;
+  top: 0;
+  filter: blur(8px);
+  width: 10vw;
+
+}
+
+#moon5{
+  position: absolute;
+left: 0;
+margin-left: -1vw;
+margin-top: 18vw;
+  z-index: 2;
+  top: 0;
+  width: 2.5vw;
+
+}
+
+#footerBottomLinkSpacing{
+  margin-bottom: 0.4vw;
+}
+
+#headerFloat{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  top: 0;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+
+  margin-bottom: auto;
+  z-index: 9;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#floatButton{
+  color: #000000;
+}
+
+#flogo{
+  width: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding-top: 0.5vw;
+  margin-left: 10%;
+  
+}
+
+#floatButton{
+  font-weight: 100;
+}
+
+.borderbuttonf{
+    
+  font-family: "Averta";
+  color: #457FC4;
+  text-decoration: none;
+  font-size: 1vw;
+  margin: 3vw;
+  height: 3vw;
+  font-weight: 100;
+
+  
+
+}
+
+#chataudiof{
+  margin-left: 0.2vw;
+  transform: translateY(20%);
+  transition: transform 0.2s ease-out;
+}
+
+.kontaktiwrapperf{
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  height: 3vw;
+  flex-grow: 1;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.topnav{
+  display: none;
+}
+
+
+@media only screen and (min-width: 2000px) {
+  #faqPadding {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #faqText{
+    font-size: 0.7vw;
+}
+
+#faqHead{
+  font-size: 1.3vw;
+}
+
+.collapsible {
+  padding: 1.05vw;
+  font-size: 1.05vw;
+}
+
+.content {
+  padding: 0 1.05vw;
+  font-size: 0.7vw;
+}
+
+.collapsible:after {
+  font-size: 0.7vw;
+}
+
+.slideshowContainer {
+  width: 52.5vw;
+
+}
+.slideshowimages{
+    width: 52.5vw;
+
+}
+
+#ssLine{
+width: 20%;
+}
+
+#formHead{
+  font-size: 1.47vw;
+}
+
+#pointText{
+  font-size: 0.84vw;
+}
+
+.pImageE{
+  width: 4.2vw;
+}
+
+#fmorebutton{
+  height: 2.8vw;
+  width: 16.8vw;
+}
+#fbutton{
+  font-size: 1.05vw;
+}
+
+
+}
+
+  .pagebutton{
+    padding-right: 2vw;
+    font-size: 0.8vw;
+}
+.borderbutton, .borderbuttonf{
+  font-size: 0.9vw;
+  margin: 2vw;
+  height: 2vw;
+  font-weight: normal;
+}
+.kontaktiwrapper, .kontaktiwrapperf{
+  height: 2vw;
+}
+
+#chataudio, #chataudiof{
+  width: 1vw;
+}
+#logoimg{
+  width: 10vw;
+}
+
+
+
+#floatButton{
+  font-size: 1vw;
+}
+
+#uploadimage{
+  margin-right: 0.5vw;margin-left: 1vw; width: 1vw;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+#logoimg{
+  width: 100%;
+}
+
+#logo{
+margin-top: 7vw;
+  width: 30vw;
+}
+
+  #central{
+    display: block;
+  }
+
+  .topnav {
+
+    margin-top: 7vw;
+    overflow: hidden;
+    position: relative;
+    width: 20vw;
+    display: block;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+
+  #myLinks{
+position: fixed;
+display: none;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 10vw;
+    background-color: white;
+    z-index: 1001;
+  }
+  
+  .topnav a:hover {
+    background-color: unset;
+    color: black;
+  }
+  
+  .active {
+    background-color: 0;
+    color: 0;
+  }
+
+  #mobileDarken{
+    width: 100%;
+    height: 1000vh;
+    filter: brightness(0.6); 
+    background-color: #000000;
+    z-index: 1000;
+    opacity: 0.5;
+    position: absolute;
+display: none;
+  }
+
+  #centraltext{
+    width: 100%;
+}
+
+.text1{
+  font-size: 6vw;
+}
+
+.text2{
+  margin-right: 10vw;
+  font-size: 4vw;
+}
+
+
+#morebutton{
+  height: 8vw;
+  margin-top: 7vw;
+  border: 1px solid rgb(255, 255, 255);
+  width: 40vw;
+
+}
+
+.moreborderbutton{
+  font-size: 4vw;
+  padding: 2vw;
+}
+
+#central{
+  overflow: clip;
+}
+
+
+
+  #housediv{
+    width: 115%;
+    margin-left: -15vw;
+
+  }
+
+  *{
+    overflow-x: clip;
+  }
+
+  #bgImg{
+    background-position: bottom;
+    background-size: 210%;
+  }
+
+
+  #moon1{
+    position: absolute;
+    padding-left: 60vw;
+    padding-top: 20vw;
+    width: 6vw;
+  }
+
+  #floatingButton{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 30vw;
+    margin-bottom: 45vw;
+    width: 15vw;
+  }
+  #floatingImg{
+    width: 15vw;
+  }
+
+  #moon2{
+    position: absolute;
+    padding-left: 27vw;
+    margin-bottom: -1.5vw;
+    bottom: 0;
+    width: 6vw;
+  }
+  
+  #moon3{
+    position: absolute;
+    right: 0;
+    margin-right: 25vw;
+    margin-bottom: 10vw;
+    bottom: 0;
+    width: 30vw;
+    filter: blur(8px);
+  }
+
+  #faqTopFlexbox {
+    display: block;
+}
+
+#faqPadding{
+  padding-top: 10%;
+}
+
+#faqHead{
+  font-size: 5vw;
+}
+
+#faqText{
+  padding-left: 0;
+  text-align: unset;
+  font-size: 3.6vw;
+  margin-top: 0;
+}
+
+.collapsible:after {
+  font-size: 2vw;
+}
+
+.collapsible{
+  font-size: 3.5vw;
+  border-radius: 4px;
+}
+
+.slideshowContainer {
+  height: 85vw;
+  max-height: 100vw;
+  margin-top: 6vw;
+}
+
+.slideshowimages{
+    height: 85vw;
+    max-height: 100vw;
+    border-radius: 8px;
+}
+
+#slideshowHead{
+font-size: 4vw;
+}
+#slideshowDesc{
+  font-size: 3vw;
+  margin-top: 2vw;
+  width: unset;
+}
+
+.prev, .next {
+  margin-top: 3vw;
+  margin-right: 3vw;
+  padding: 2vw;
+  top: 0;
+  bottom: unset;
+  font-size: 10px;
+}
+
+.next {
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    right:0;
+    margin-right: 24vw;
+}
+
+.slideshowButtonImages{
+  height: 3vw;
+  width: 8vw;
+}
+.numbertext{
+  bottom: unset;
+  top: 0;
+  font-size: 3vw;
+  margin-right: 8vw;
+  margin-top: 2.5vw;
+}
+
+#ssmorebutton{
+  height: 8vw;
+  width: 40vw;
+}
+
+#ssbutton{
+  font-size: 3vw;
+  margin-left: 5vw;
+}
+
+#ssLine{
+  width: 40%;
+  align-items: center;
+}
+#ssHr{
+  width: 30%;
+  margin-left: 0;
+  border-width: 0.6vw;
+}
+#newsLineLabel{
+  font-size: 2.5vw;
+
+}
+
+#formHead{
+  padding-top: 30vw;
+}
+
+.points{
+  display: block;
+}
+
+#formInfoCont{
+  justify-content: center;
+  z-index: 5;
+
+
+}
+
+#formInfo{
+  border-radius: 0;
+  width: 100%;
+  height: unset;
+  display: block;
+  padding-bottom: 6vw;
+}
+#formContainer{
+  height: 150vw;
+}
+
+.pointImg{
+  display: flex;
+  padding-right: 0;
+  justify-content: center;
+  padding-bottom: 3vw;
+  height: 7vw;
+}
+
+#pointText{
+  font-size: 4vw;
+  text-align: center;
+}
+.pImageE{
+  width: 10vw;
+}
+
+#pointContainer{
+  padding-top: 10vw;
+  justify-content: space-around;
+  padding-right: 2vw;
+}
+
+#fmorebutton{
+  margin-top: 10vw;
+  width: 70vw;
+  height: 13vw;
+}
+#fbutton{
+  font-size: 4.5vw;
+}
+#moon5{
+  position: absolute;
+left: unset;
+right: 0;
+margin-right: 20vw;
+margin-left: unset;
+margin-top: -2vw;
+  z-index: 2;
+  top: 0;
+  width: 5vw;
+
+}
+#effects3{
+  width: 100%;
+}
+#formGradient{
+  height: fit-content;
+
+}
+#formIHead{
+  font-size: 6vw;
+  padding-top: 10vw;
+}
+
+#formText{
+  margin-top: 3vw;
+  font-size: 3.5vw;
+}
+
+#formHr{
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+
+#fLBottomHead{
+  font-size: 4vw;
+  padding-bottom: 3vw;
+}
+
+.contact{
+  font-size: 3vw;
+  padding-bottom: 3vw;
+}
+
+.contactImg{
+  width: 3vw;
+}
+
+.contactInfo{
+  padding-left: 3vw;
+}
+
+#formRight{
+  width: 100%;
+}
+
+input{
+  width: 100%;
+}
+
+form{
+  width: 100vw;
+}
+
+input[type=text] ,select{
+  width: 85%;
+  height: 13vw;
+  margin-bottom: 2vw;
+  margin-left: 6vw;
+  font-size: 3vw;
+  padding-left: 3vw;
+
+}
+#failsUnAdd{
+  display: block;
+  width: 100%;
+}
+
+.custom-file-upload {
+  width: 85%;
+  height: 13vw;
+  font-size: 3vw;
+  padding-left: 3vw;
+  margin-left: 6vw;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+}
+
+#uploadimage{
+  margin-right: 5vw;margin-left: 1vw; width: 4vw;
+}
+
+.solids{
+  border-width: 0.1vw;
+  opacity: 0.17;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+textarea {
+  width: 85%;
+  height: 20vw;
+  font-size: 3vw;
+  padding-top: 3vw;
+  margin-top: 2vw;
+  padding-left: 3vw;
+  margin-left: 6vw;
+  resize: none;
+}
+
+#footerMain{
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+#checkboxText{
+  width: 100%;
+  display: block;
+  padding-top: 5vw;
+  padding-bottom: 6vw;
+  justify-content: center;
+}
+
+#chckandtext{
+  display: flex;
+  margin-left: 6vw;
+  margin-bottom: 3vw;
+}
+
+.container {
+  margin-bottom: 2vw;
+  font-size: 7vw;
+  width: 4vw;
+  height: 4vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4vw;
+  width: 4vw;
+  background-color: #EDF3F8;
+  border-radius: 4px;
+}
+
+#ppText{
+  display: flex;
+
+}
+
+.ppLabel{
+  font-size: 4vw;
+  margin-left: 1vw;
+}
+
+.container .checkmark:after {
+  left: 1vw;
+  top: 0.3vw;
+  width: 1vw;
+  height: 2vw;
+  border: solid rgb(0, 0, 0);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+input[type=submit] {
+  width: 85vw;
+  margin-left: 6vw;
+  font-size: 5vw;
+  background-color: #FAA819;
+  flex: none;
+  height: 10vw;
+  border: 1px solid #FAA819;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  
+  margin-bottom: 3vw;
+  margin-top: -0.5vw;
+  justify-content: center;
+  font-weight: 100;
+  margin-bottom: 6vw;
+}
+
+#footerMain{
+  display: block;
+}
+
+#footerLeftText{
+  font-size: 6vw;
+}
+
+#footerTopLeft{
+  padding-left: 6vw;
+  padding-bottom: 6vw;
+  width: 100%;
+}
+
+#newsLine{
+width: 30%;
+padding-top: 6vw;
+align-items: center;
+}
+
+#newsHr{
+  width: 30%;
+  border-width: 0.5vw;
+  align-items: center;
+}
+
+#footerLinks{
+  display: none;
+}
+
+#newsLink{
+  padding-right: 2vw;
+  font-size: 5vw;
+}
+
+.newsImg {
+  object-fit: fill;
+  max-width: unset;
+  border-radius: 8px;
+  height: 40vw;
+  overflow-x: none;
+
+}
+
+.new{
+  width: 100% !important;
+  overflow: unset;
+  padding-left: 6vw;
+  max-width: unset;
+}
+
+#footerNews{
+  min-height: min-content;
+  width: fit-content;
+  overflow-x: unset;
+}
+
+#footerScroll{
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+
+#footerNewsText {
+  margin-top: 3vw;
+  font-size: 3vw;
+  width: 100%;
+  padding-right: 0;
+  font-weight: 100;
+}
+
+#footerBottomFlex{
+  display: block;
+  margin: 0;
+}
+
+#grayHr{
+  margin-bottom: 6vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  
+}
+
+#footerLogo{
+  width: 100vw;
+}
+
+#footerLogoCenter {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-content: space-around; */
+  align-items: center;
+}
+
+#footerImg{
+  width: 30vw;
+}
+
+#copyrightTop {
+  font-family: "Averta";
+  text-decoration: none;
+  padding-right: 1vw;
+  margin-top: 0vw;
+  color: #ffffff;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#cBottomText {
+  font-family: "Averta";
+  text-decoration: none;
+  color: #809294;
+  font-size: 3vw;
+  text-align: end;
+}
+#cBottomImg {
+  color: #809294;
+  filter: brightness(0.8);
+  width: 13vw;
+  padding-left: 0.5vw;
+  margin-left: unset;
+}
+
+#copyrightBottom {
+  display: flex;
+  justify-content: center;
+}
+
+#footerFImg{
+  position: absolute;
+  width: 20%;
+  right: 0;
+  height: unset;
+  margin-right: 10vw;
+}
+
+#footerFunnyImage{
+  height: 10vw;
+  width: 100%;
+
+}
+
+#floatButtonM{
+  font-size: 4vw;
+  color: #000000;
+  margin-bottom: 2vw;
+}
+
+#logoFM{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  margin-left: 10%;
+  padding-top: 6vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 8vw;
+}
+
+#logoimgf{
+width: 30vw;
+}
+
+#headerbuttonsFMCont{
+  padding-left: 10vw;
+  padding-bottom: 3.5vw;
+}
+
+#headerFloat{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  top: 0;
+
+
+  margin-bottom: auto;
+  z-index: 9;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+  #flogoimg{
+    filter: invert(); width: 25vw;
+  }
+
+  #flogo{
+    width: 30vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 4vw;
+    padding-bottom: 3vw;
+    margin-left: 10%;
+    
+  }
+
+  #headerbuttons{
+    display: none;
+  }
+
+  #headerbuttonsf{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .topnavf {
+width: 10vw;
+padding-top: 5vw;
+padding-left: 7vw;
+padding-bottom: 5vw;
+padding-right: 3vw;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background-color: rgb(77, 158, 252);
+  }
+
+  #topnavCont{
+    padding-top: 0;
+    top: 0;
+    background-color: rgb(77, 158, 252);
+  }
+
+
+  .borderbuttonfm{
+    font-size: 3.5vw;
+    font-family: "Averta";
+    text-decoration: none;
+    color: #000000;
+    font-weight: 100;
+    margin: 3vw;
+    height: 3vw;
+
+  
+  }
+
+  #headerbuttons{
+    align-items: center;
+  }
+
+  .kontaktiwrapperf{
+    border: 0;
+    height: 10vw;
+  }
+
+  #kontakti{
+    align-self: self-start;
+  }
+
+  .borderbuttonf{
+    font-size: 3.5vw;
+    color: #000000;
+  }
+  
+
+  #chataudiof{
+    width: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  #topnavfloat{
+    display: block;
+  }
+
+  #floatButton{
+    display: none;
+  }
+
+  .content{
+    font-size: 3vw;
+  }
+
+  #morebuttontext{
+    display: flex;
+    align-items: center;
+    margin-top: 0vw;
+    margin-bottom: 2vw;
+  
+  }
+  
+}
+
+
+
+
