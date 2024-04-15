@@ -447,7 +447,7 @@ background-color: #FAA819;
     width: 12vw;
     display: flex;
     align-items: center;
-    margin-bottom: 3vw;
+    margin-bottom: 0vw;
 }
 
 #ssbutton{
@@ -1526,6 +1526,8 @@ font-size: 4vw;
 #ssmorebutton{
   height: 8vw;
   width: 40vw;
+  margin-bottom: 1vw;
+
 }
 
 #ssbutton{
