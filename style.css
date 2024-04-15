@@ -2001,6 +2001,7 @@ width: 30vw;
     display: flex;
     align-items: center;
     overflow: hidden;
+    padding-right: 0;
   }
 
   .topnavf {
